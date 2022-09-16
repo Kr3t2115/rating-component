@@ -140,3 +140,10 @@ body {
   color: var(--orange);
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .buttons button {
+    width: 40px;
+    height: 40px;
+  }
+}
